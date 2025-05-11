@@ -26,18 +26,19 @@
     .footer-image {
       position: absolute;
       bottom: 0;
-      left: 0;
+      left: 50%;
+      transform: translateX(-50%);
       width: 375px;
-      height: 50px; /* Adjust height to cover branding logo */
+      height: 60px; /* Increased height to better cover branding logo */
       background-color: white; /* Placeholder white image */
       z-index: 10;
     }
     .top-right-cover {
       position: absolute;
-      top: 10px;
-      right: 10px;
-      width: 40px; /* Adjust to cover the grey icon */
-      height: 40px;
+      top: 5px; /* Adjusted for better alignment */
+      right: 5px; /* Adjusted for better alignment */
+      width: 50px; /* Slightly increased to ensure full coverage */
+      height: 50px;
       background-color: white; /* Placeholder white image */
       z-index: 10;
     }
@@ -58,7 +59,7 @@
       }
       .footer-image {
         width: 375px;
-        height: 50px;
+        height: 60px;
       }
       .container {
         padding: 20px;
