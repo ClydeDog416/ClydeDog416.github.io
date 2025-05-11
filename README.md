@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=375px, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <style>
     body {
       margin: 0;
@@ -17,6 +17,7 @@
     .container {
       position: relative;
       text-align: center;
+      width: 375px;
     }
     iframe {
       border: none;
@@ -29,15 +30,15 @@
       left: 50%;
       transform: translateX(-50%);
       width: 375px;
-      height: 70px; /* Increased height to better cover branding logo */
+      height: 80px; /* Increased height to fully cover branding logo */
       background-color: white; /* Placeholder white image */
       z-index: 10;
     }
     .top-right-cover {
       position: absolute;
-      top: 0; /* Adjusted for better alignment */
-      right: 0; /* Adjusted for better alignment */
-      width: 60px; /* Increased to ensure full coverage */
+      top: 0;
+      right: 10px; /* Adjusted to center over the grey icon */
+      width: 60px;
       height: 60px;
       background-color: white; /* Placeholder white image */
       z-index: 10;
@@ -52,7 +53,7 @@
       }
       .footer-image {
         width: 375px;
-        height: 70px;
+        height: 80px;
       }
       .container {
         padding: 20px;
