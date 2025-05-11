@@ -29,25 +29,18 @@
       left: 50%;
       transform: translateX(-50%);
       width: 375px;
-      height: 60px; /* Increased height to better cover branding logo */
+      height: 70px; /* Increased height to better cover branding logo */
       background-color: white; /* Placeholder white image */
       z-index: 10;
     }
     .top-right-cover {
       position: absolute;
-      top: 5px; /* Adjusted for better alignment */
-      right: 5px; /* Adjusted for better alignment */
-      width: 50px; /* Slightly increased to ensure full coverage */
-      height: 50px;
+      top: 0; /* Adjusted for better alignment */
+      right: 0; /* Adjusted for better alignment */
+      width: 60px; /* Increased to ensure full coverage */
+      height: 60px;
       background-color: white; /* Placeholder white image */
       z-index: 10;
-    }
-    .open-source {
-      position: absolute;
-      bottom: 10px;
-      width: 100%;
-      text-align: center;
-      z-index: 20;
     }
     @media (min-width: 376px) {
       body {
@@ -59,7 +52,7 @@
       }
       .footer-image {
         width: 375px;
-        height: 60px;
+        height: 70px;
       }
       .container {
         padding: 20px;
@@ -74,9 +67,6 @@
     <iframe id="JotFormIFrame-251257978290165" title="Clyde's Info" allow="geolocation; microphone; camera" src="https://www.jotform.com/app/251257978290165?appEmbedded=1"></iframe>
     <div class="footer-image"></div>
     <div class="top-right-cover"></div>
-    <div class="open-source">
-      This site is open source. Improve this page.
-    </div>
   </div>
 </body>
 </html>
