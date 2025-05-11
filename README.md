@@ -29,14 +29,14 @@
       left: 50%;
       transform: translateX(-50%);
       width: 375px;
-      height: 80px; /* Increased height to fully cover branding logo */
+      height: 80px; /* Ensures full coverage of branding logo */
       background-color: white; /* Placeholder white image */
       z-index: 10;
     }
     .top-right-cover {
       position: absolute;
-      top: 0;
-      right: 10px; /* Adjusted to center over the grey icon */
+      top: 10px; /* Adjusted to align below "PAGES" */
+      right: 5px; /* Adjusted to follow the edge of the "PAGES" rectangle */
       width: 60px;
       height: 60px;
       background-color: white; /* Placeholder white image */
