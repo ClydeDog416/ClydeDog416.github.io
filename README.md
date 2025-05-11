@@ -1,3 +1,7 @@
+<iframe id="JotFormIFrame-251257978290165" title="Clyde's Info" allow="geolocation; microphone; camera" src="https://www.jotform.com/app/251257978290165?appEmbedded=1" style="height:600px; width:375px; border: 0;"></iframe>
+
+
+
 <div style="border: 5px solid #8B4513; border-radius: 10px; padding: 20px; margin: 10px;">
 
 <div style="text-align: center;">
