@@ -29,16 +29,16 @@
       left: 50%;
       transform: translateX(-50%);
       width: 375px;
-      height: 80px; /* Ensures full coverage of branding logo */
+      height: 120px; /* Increased to cover footer fully across all views */
       background-color: white; /* Placeholder white image */
       z-index: 10;
     }
     .top-right-cover {
       position: absolute;
-      top: 10px; /* Adjusted to align below "PAGES" */
-      right: 5px; /* Adjusted to follow the edge of the "PAGES" rectangle */
-      width: 60px;
-      height: 60px;
+      top: 50px; /* Adjusted to cover the image fully */
+      right: 10px; /* Adjusted to align with the container edge */
+      width: 160px; /* Increased to cover the entire image */
+      height: 100px; /* Increased to cover the entire image */
       background-color: white; /* Placeholder white image */
       z-index: 10;
     }
@@ -50,15 +50,12 @@
         width: 375px;
         height: 600px;
       }
-      .footer-image {
-        width: 375px;
-        height: 80px;
-      }
       .container {
         padding: 20px;
         background-color: #f5e8c7; /* Tan color for sides */
         background: linear-gradient(to right, #f5e8c7, #d2b48c); /* Tan to light brown gradient */
       }
+      /* No additional changes needed for tablet/web since base styles now apply */
     }
   </style>
 </head>
